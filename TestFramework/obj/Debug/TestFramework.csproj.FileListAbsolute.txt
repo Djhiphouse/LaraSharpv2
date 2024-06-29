@@ -1,0 +1,11 @@
+/Users/djhiphouse/RiderProjects/LaraSharp Framework/TestFramework/bin/Debug/TestFramework.exe
+/Users/djhiphouse/RiderProjects/LaraSharp Framework/TestFramework/bin/Debug/TestFramework.pdb
+/Users/djhiphouse/RiderProjects/LaraSharp Framework/TestFramework/bin/Debug/LaraSharp_Framework.dll
+/Users/djhiphouse/RiderProjects/LaraSharp Framework/TestFramework/bin/Debug/Newtonsoft.Json.dll
+/Users/djhiphouse/RiderProjects/LaraSharp Framework/TestFramework/bin/Debug/LaraSharp_Framework.pdb
+/Users/djhiphouse/RiderProjects/LaraSharp Framework/TestFramework/bin/Debug/Newtonsoft.Json.xml
+/Users/djhiphouse/RiderProjects/LaraSharp Framework/TestFramework/obj/Debug/TestFramework.csproj.AssemblyReference.cache
+/Users/djhiphouse/RiderProjects/LaraSharp Framework/TestFramework/obj/Debug/TestFramework.csproj.CoreCompileInputs.cache
+/Users/djhiphouse/RiderProjects/LaraSharp Framework/TestFramework/obj/Debug/TestFramework.csproj.CopyComplete
+/Users/djhiphouse/RiderProjects/LaraSharp Framework/TestFramework/obj/Debug/TestFramework.exe
+/Users/djhiphouse/RiderProjects/LaraSharp Framework/TestFramework/obj/Debug/TestFramework.pdb
