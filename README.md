@@ -36,8 +36,7 @@ class Program
     static void Main(string[] args)
     {
         var laraSharp = new LaraSharp_Framework.LaraSharp();
-        Instance instance = new Instance();
-        instance.Initialize();
+        laraSharp.Initialize();
 
         // Initialize Views Here
         ErrorView.Initialize();
