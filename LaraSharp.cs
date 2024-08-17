@@ -1,25 +1,23 @@
-﻿using System.Threading;
-using LaraSharp_Framework.Settings;
+﻿using LaraSharp_Framework.Settings;
 using LaraSharp_Framework.Views;
+using System.Threading;
 
 namespace LaraSharp_Framework
 {
-    public class LaraSharp
+  public class LaraSharp
+  {
+    private Instance laraSharp = new Instance();
+
+    public void StartUp()
     {
-        public void StartUp()
-        {
-            Instance laraSharp = new Instance();
-            laraSharp.Initialize();
-            
-            ErrorView.Initialize();
-            WelcomeView.Initialize();
-            
-            Instance.RegisterRoute("/error", ErrorView.HtmlBuilder);
-            Instance.RegisterRoute("/welcome", WelcomeView.HtmlBuilder);
-            
-            Instance.StartUp();
-            Thread.Sleep(-1);
-        }
-        
+      ErrorView.Initialize();
+      WelcomeView.Initialize();
+      Instance.RegisterRoute("/error", ErrorView.HtmlBuilder);
+      Instance.RegisterRoute("/welcome", WelcomeView.HtmlBuilder);
+      Instance.StartUp();
+      Thread.Sleep(-1);
     }
+
+    public void Initialize() => this.laraSharp.Initialize();
+  }
 }
